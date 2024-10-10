@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    position: absolute;
+    top: 20px;
+    width: 0;
+
+}
+
+.navbar a {
+    background-color: #0E2C48;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px 20PX;
+    border-radius: 10px;
+}
+
+.navbar {
+    display: flex;
+    top: 0;
+    width: 100%;
+    padding: 30px;
+    background-color: #9A1316;
+    margin-top: 0; 
+  }
+
+  .pict img{
+    width :120px;
+    height: 100px;
+  }
+
+.pict {
+  display: flex;
+    width: 100px; 
+    height: auto;
+    margin-left: 50px;
+    margin-top: 100px; 
+    gap: 150px;
+}
+
+  .judul{
+    margin-top: 50px;
+    text-align: center;
+    color: #0E2C48;
+    
+  }
+
+ .listtabel{
+  margin-top: 30px;
+ }
+
+ .table{
+  display: block;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #0E2C48;
+ }
+
+ td{
+  padding: 5px;
+  width: 20px;
+  max-width: 260%;
+ }
+
+ th{
+  width: 100px;
+ }
+
+ th, td {
+  border: 2px solid #0E2C48; 
+}
+
+ 
+
